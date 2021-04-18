@@ -10,6 +10,10 @@
     "start": "node server.js",
     "test": "node ace test"
   },
+  "engines": {
+    "node": "14.16.1",
+    "npm": "7.9.0"
+  },
   "dependencies": {
     "@adonisjs/auth": "^3.0.7",
     "@adonisjs/bodyparser": "~2.0.9",
