@@ -11,7 +11,8 @@
     "test": "node ace test",
     "prepare": "husky install",
     "prettier": "prettier --write '**/*.{js,json}'",
-    "eslint": "eslint '**/*.js' --fix"
+    "eslint": "eslint '**/*.js' --fix",
+    "eslint:ci": "eslint '**/*.js' --quiet"
   },
   "engines": {
     "node": "14.16.1",
