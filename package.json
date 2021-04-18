@@ -28,6 +28,8 @@
   },
   "devDependencies": {
     "@adonisjs/ace": "^5.0.8",
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
     "eslint": "^7.24.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.2.0",
@@ -36,7 +38,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
     "husky": "^6.0.0",
-    "prettier": "2.2.1"
+    "prettier": "2.2.1",
+    "pretty-quick": "^3.1.0"
   },
   "autoload": {
     "App": "./app"
