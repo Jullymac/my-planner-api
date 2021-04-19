@@ -1,6 +1,6 @@
 {
   "name": "my-planner-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "adonis-version": "4.1.0",
   "author": {
     "name": "Juliana Macêdo",
@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node server.js",
+    "build": "node ace migration:run --force",
     "test": "node ace test",
     "prepare": "husky install",
     "prettier": "prettier --write '**/*.{js,json}'",
